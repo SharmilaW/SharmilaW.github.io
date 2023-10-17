@@ -4,7 +4,7 @@
     font-family:'Poppins', ;
     src: url(Poppins.woff);
     box-sizing:border-box;
-
+    background-color: balck;
 }
 .home{
     height: 100vh;
