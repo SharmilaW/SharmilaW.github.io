@@ -55,19 +55,16 @@ nav ul li a:hover{
     transform: translateY(-50%);
 }
 h1{
-    background-color: none;
     color: #fcfc;
     letter-spacing: 2px;
     font-size: 20px;
 }
 h4{
-    background-color: none;
     color: white;
     margin: 20px 0px 20px;
     font-size: 75px;
 }
 h3{
-    background-color: none;
     color: white;
     font-size: 25px;
     margin-bottom: 50px;
