@@ -6,11 +6,11 @@
     box-sizing:border-box;
 }
 .home{
-    height: 200vh;
+    height: 150vh;
     width:100%;
     background-image: url(bg.jpg);
     background-size: cover;
-    background-position:center;
+    background-position:top right;
 }
 
 nav{
