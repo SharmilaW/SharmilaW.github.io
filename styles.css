@@ -1,12 +1,5 @@
-*{
-    padding: 0;
-    margin:0;
-    font-family:'Poppins', ;
-    src: url(Poppins.woff);
-    box-sizing:border-box;
-}
 .home{
-    height: 150vh;
+    height: 125vh;
     width:100%;
     background-image: url(bg.jpg);
     background-size: cover;
@@ -17,7 +10,7 @@ nav{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 45px;
+    padding-top: 5px;
     padding-left:8%;
     padding-right:8%;
 }
@@ -115,7 +108,7 @@ h5{
     font-size: 18px;
     margin-bottom: 45px;
 }
-p {
+p{
     font-size: 22px;
     color: white;
     margin-bottom: 10px;
@@ -124,7 +117,7 @@ p {
 .skills{
     background: black;
     width: 100%;
-    padding: 100px 0px;
+    padding: 50px 0px;
 }
 .title h2{
     color: white;
@@ -159,8 +152,8 @@ p {
 li{
     color: white;
     font-size:14px;
-    margin: 30px auto;
-    text-align: center; 
+    margin: 15px auto;
+    text-align: left; 
 }
 footer{
     position:fixed;
@@ -186,7 +179,7 @@ footer{
 }
 .social ul li a:hover{
     color: #4267B2;
-    transition: .4s
+    transition: 0.4s
 }
 
 h5{
@@ -194,6 +187,13 @@ h5{
     margin: 20px 0px 20px;
     font-size: 30px;
     text-align: center;
+}
+/*css for the gallery statrs from here*/
+body {
+    background-color: black;
+}
+.photos {
+    background-color: black;
 }
 div.gallery {
     border: 1px solid #ccc;
@@ -235,16 +235,18 @@ div.desc {
     .responsive {
     width: 100%;
     }
-  }
+}
 .clearfix p{
     font-size: 18px;
-    color: rgb(14, 14, 14);
+    color: white;
+    margin-bottom: 5px;
+    text-align:center;
 } 
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
 
 
 
