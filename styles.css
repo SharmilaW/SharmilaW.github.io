@@ -1,4 +1,4 @@
-.home{
+home{
     height: 125vh;
     width:100%;
     background-image: url(bg.jpg);
@@ -247,6 +247,7 @@ div.desc {
     display: table;
     clear: both;
 }
+
 
 
 
