@@ -4,12 +4,11 @@
     font-family:'Poppins', ;
     src: url(Poppins.woff);
     box-sizing:border-box;
-    background-color: black;
 }
 .home{
     height: 200vh;
     width:100%;
-    background-image: url(../images/bg.jpg);
+    background-image: url(bg.jpg);
     background-size: cover;
     background-position:center;
 }
