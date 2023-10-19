@@ -1,10 +1,12 @@
 <!DOCTYPE html>
+<!--All the references were taken from W3School https://www.w3schools.com/html/default.asp-->
 <html lang="en">
   <head>
     <title>Photos</title>
   </head>
   <body>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">/*responsive
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Responsive Design-->
+    <link rel="stylesheet" type="text/css" href="styles.css"><!--The styles are used from the external css file-->
     <div class="photos">
       <!--Navigation starts here (one of the three choices)-->
       <nav>
@@ -20,13 +22,11 @@
     <h5>Walk Through The Memory Lane</h5>
     <link rel="stylesheet" type="text/css" href="styles.css"><!--The styles are used from the external css file-->
     <div class="responsive">
-      <div class="gallery">
-        <a target="_blank" href="Path.jpg"></a>
-        <img src="Path.jpg" alt="Path" ><!--This image can be opened in new tab as it has href attribute-->
+      <div class="gallery"><img src="Path.jpg" alt="Path" >
         <div class="desc">This Photograph was taken near Fleming College.</div><!--Description of the images-->
       </div>
     </div>
-  <!--Other images can not be opened in the new tab as only the Path image uses the href attribute-->
+  
     <div class="responsive">
       <div class="gallery"><img src="Graduation.jpg" alt="Graduation" >
         <div class="desc">Convocation Ceremony of Tribhuvan University.</div>
