@@ -1,4 +1,4 @@
-/*All the references were taken from W3School https://www.w3schools.com/css/default.asp*/
+/*All the references were taken from W3School https://www.w3schools.com/css/default.asp and are modified*/
 .home{
     height: 125vh;
     width:100%;
@@ -194,19 +194,20 @@ footer{/*Style for the footer which is fixed to the position so that the content
 }
 /*css for the gallery statrs from here*/
 /*css for the gallery statrs from here*/
-h5{
+
+body {
+    background-color: black;/*To make the whole background of the second page black*/
+}
+.photos {
+    background-color: black;
+}
+#memories{
     display:block;
     color: white;
     margin: 20px 0px 20px;
     font-size: 30px;
     font-weight: bolder;
     text-align: center;
-}
-body {
-    background-color: black;
-}
-.photos {
-    background-color: black;
 }
 div.gallery {
     border: 1px solid #ccc;
