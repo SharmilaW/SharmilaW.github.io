@@ -1,3 +1,4 @@
+/*All the references were taken from W3School https://www.w3schools.com/css/default.asp*/
 .home{
     height: 125vh;
     width:100%;
@@ -249,13 +250,13 @@ div.desc {
     width: 100%;
     }
 }
-.clearfix p{
+.caption p{
     font-size: 18px;
     color: white;
     margin-bottom: 5px;
     text-align:center;
 } 
-.clearfix:after {
+.caption:after {
     content: "";
     display: table;
     clear: both;
